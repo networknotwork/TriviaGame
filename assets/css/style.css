@@ -1,0 +1,27 @@
+body{
+    background-color:#000;
+}
+h1{
+    font-size:400%;
+}
+h2{
+    font-size:200%;
+}
+
+button{
+    border: 2px solid #000;
+    background-color: #ccc;
+    width: 100px;
+    height: 50px;
+    font-size: 125%;
+    margin:60px;
+}
+
+#page{
+    text-align: center;
+    line-height: 150%;
+    background-color:#fff;
+    padding:20px;
+    margin:auto;
+    width:80%;
+}

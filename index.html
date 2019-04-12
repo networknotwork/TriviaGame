@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trivia Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div id="page">
+        <h1>Casual Gamer's Quiz</h1>
+            <div id="title">
+                <button id="start">Start</button>
+            </div>
+            <div id="quiz">
+                <p id="timer">Time left: 60</p>
+                <h2>True or False: Mario wears green.</h2>
+                <input type="radio" name="q1" value="wrong"> True
+                <input type="radio" name="q1" value="correct"> False
+                <br>
+                <h2>Pac-Man is NOT chased by which ghost?</h2>
+                <input type="radio" name="q2" value="wrong"> Pinky
+                <input type="radio" name="q2" value="correct"> Sue
+                <input type="radio" name="q2" value="wrong"> Clyde
+                <br>
+                <h2>In Mario Kart, who does the blue shell directly target?</h2>
+                <input type="radio" name="q3" value="correct"> First Place
+                <input type="radio" name="q3" value="wrong"> Racer Ahead
+                <input type="radio" name="q3" value="wrong"> Racer Behind
+                <br>
+                <h2>Which one is a Pokemon?</h2>
+                <input type="radio" name="q4" value="wrong"> Like-Like
+                <input type="radio" name="q4" value="wrong"> Fludd
+                <input type="radio" name="q4" value="correct"> Muk
+                <br> 
+                <button id="submit">Submit</button>
+            </div>
+
+            <div id="result">
+                <h2> Results!</h2>
+                <p id="correct"></p>
+                <p id="wrong"></p>
+                <p id="incomplete"></p>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="assets/javascript/app.js"></script>
+    </body>
+</html>

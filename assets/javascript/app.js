@@ -34,7 +34,7 @@ function end(){
 }
 
 function reset(){
-    quiz=["0", "0", "0", "0"];
+    quiz=["0", "0", "0", "0", "0"];
     correct=0;
     wrong=0;
     incomplete=0;
@@ -49,6 +49,7 @@ function check(){
     quiz[1]=$("input[name=q2]:checked").val();
     quiz[2]=$("input[name=q3]:checked").val();
     quiz[3]=$("input[name=q4]:checked").val();
+    quiz[4]=$("input[name=q5]:checked").val();
     for(var a=0; a<quiz.length; a++){
         if(quiz[a]=="correct"){
             correct++;
